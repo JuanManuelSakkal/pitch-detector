@@ -1,0 +1,85 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'futura', sans-serif;
+  background:#000;
+  
+}
+canvas {
+  display: block;
+  margin: 0 auto;
+  clear: both;
+}
+
+
+div {
+  padding-top:15px;
+/*   border:1px solid #fff;
+  height:200px; */
+  width:600px;
+  bottom:-1;
+  float:none;
+  display: block;
+  margin: 0 auto;
+  color:white;
+  clear: both;
+/*   text-align:center; */
+}
+
+div h2{
+  
+  width:100px;
+  padding-left:50px;
+  float:left;
+  padding-right:5px;
+}
+
+p {
+border-left:2px solid white;
+  padding-left:20px;
+  padding-top:5px;
+  padding-bottom:5px;
+  color:grey;
+  text-align:left;
+  width:70%;
+  float:left;
+}
+
+/* unvisited link */
+a {
+  color: grey;
+  text-decoration:none;
+  display:block;
+  margin: 0 auto;
+  text-align:center;
+  letter-spacing:1px;
+}
+
+/* visited link */
+a:visited {
+  color: grey;
+}
+
+/* mouse over link */
+a:hover {
+  color: white;
+}
+
+#distanceMeter {    
+  margin: 0 0 15px 0;
+  position: relative;
+  background: linear-gradient(90deg, rgba(15,15,250,1) 0%, rgba(80,255,80,1) 50%, rgba(250,15,15,1) 100%);
+  width: 150px;
+  height: 5px;
+  border-radius: 10px;
+  vertical-align: text-bottom;
+}
+
+#distanceMarker {    
+  position: absolute;
+  top: 0;
+  width: 5px;
+  height: inherit;
+  background: #ffffff8f;
+  left: 0px;
+}
