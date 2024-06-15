@@ -12,5 +12,5 @@ export const sendFeedbackTone = (note) => {
 
 export const stopFeedback = () => {
     console.log("releasing")
-    synth.triggerRelease();
+    //synth.triggerRelease();
 }
